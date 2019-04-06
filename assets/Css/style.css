@@ -2,12 +2,15 @@
 .sBody{
     background-color:#eff3f9;
     background-image: url("../images/leaves.png");
+    /* height: 100%; */
     
 }
-/* 
-#mainContent{
-    min-height: clac(100vh-50px);
-} */
+ 
+ #mainContent{
+    min-height: calc(100vh - 70px);
+    /* height: 100%; */
+    /* margin-bottom: -50px; */
+}  
 
 /* Style for Main container in the header part */
 .sMain{
@@ -82,10 +85,11 @@
 /* style for the footer */
 .sFooter{
     background-color:#666666;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     width:100%;
-    height: 20px;
-    padding: 20px;
+    height: 5%;
+    padding: 10px;
     bottom:0;
     text-align: center;
     border-top-style: solid;
@@ -161,6 +165,13 @@ p{
     bottom:15px;
     margin:0;
     width:89%;
+}
+
+#dFooter{
+    position: absolute;;
+    /* bottom:0; */
+    width:100%;
+    height:50%;
 }
 
 /*############# Media Query ######################*/
