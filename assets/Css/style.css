@@ -249,4 +249,8 @@ p{
     .imgGrid{
        margin:0 10px;
     }
+
+    #mainContent{
+        width:100%;
+    }
 }
