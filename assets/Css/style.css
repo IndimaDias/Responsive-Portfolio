@@ -232,3 +232,21 @@ p{
         top:20%;
     }
 }
+
+/* media query for devices with screen width less than 768 */
+@media only screen and (max-width: 768px) { 
+    .sMenu{
+        margin-top:25px;
+        width:60%;
+        margin-left:50%;
+    }
+
+    #dFooter{
+        position: fixed;
+        bottom:0;
+    }
+
+    .imgGrid{
+       margin:0 10px;
+    }
+}
