@@ -234,11 +234,12 @@ p{
 }
 
 /* media query for devices with screen width less than 768 */
-@media only screen and (max-width: 768px) { 
+@media only screen and (min-width: 648px) { 
     .sMenu{
         margin-top:25px;
         width:60%;
         margin-left:50%;
+        /* margin-top:25%; */
     }
 
     #dFooter{
