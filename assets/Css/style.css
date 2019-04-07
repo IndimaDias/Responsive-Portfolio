@@ -253,4 +253,12 @@ p{
     #mainContent{
         width:100%;
     }
+
+    .dFormat{
+        width:100%;
+    }
+
+    .hFormat{
+        width:100%;
+    }
 }
