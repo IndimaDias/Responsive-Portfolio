@@ -91,6 +91,11 @@
     height:auto;
 }
 
+.hFormat{
+    width:60%;
+    margin:auto;
+    height:auto;
+}
 /* style for the footer */
 .sFooter{
     background-color:#666666;
@@ -203,12 +208,11 @@ p{
 
     .sContent{
         height: auto;
-        top:20%;/*c1*/
+       
     }
 
     .sContentForm{
         height:75%;
-        top:20%;  /*c1*/
     }
     
     .input{
@@ -220,5 +224,9 @@ p{
     #dFooter{
         position: fixed;
         bottom:0;
+    }
+
+    .dFormat{
+        top:20%;
     }
 }
