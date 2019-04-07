@@ -203,15 +203,22 @@ p{
 
     .sContent{
         height: auto;
+        top:20%;/*c1*/
     }
 
     .sContentForm{
         height:75%;
+        top:20%;  /*c1*/
     }
     
     .input{
         padding: 0;
         margin-top: 15%;
         margin-bottom: 15%;
+    }
+/*c1*/
+    #dFooter{
+        position: fixed;
+        bottom:0;
     }
 }
